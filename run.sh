@@ -1,4 +1,6 @@
 
-export PYTHONDONOTWRITEBYTECODE=1
+export PYTHONDONTWRITEBYTECODE=1
 export ENVIRONMENT=dev
-python -B src/main.py
+
+
+python -m uvicorn src.main:app --port 8000 --reload

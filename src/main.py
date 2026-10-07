@@ -1,8 +1,7 @@
+from fastapi import FastAPI
+from src.controller.profile_controller import profile_router
+
+app = FastAPI()
 
 
-def main():
-    print("Hello from py-profile!")
-
-
-if __name__ == "__main__":
-    main()
+app.include_router(profile_router)
