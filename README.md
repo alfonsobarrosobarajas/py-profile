@@ -2,6 +2,10 @@
 
 A lightweight FastAPI service for managing user profile records in MongoDB.
 
+## Author
+
+This project was authored by Dr. Alfonso J. Barroso Barajas
+
 ## Overview
 
 `py-profile` is a small backend application that exposes a profile API and stores user data in a MongoDB collection. The project is organized around a simple layered structure:
